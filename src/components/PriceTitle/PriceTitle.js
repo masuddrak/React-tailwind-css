@@ -1,9 +1,9 @@
 import React from 'react';
 import Price from '../Price/Price';
 const priceList=[
-    {id:1,name:'Free',price:0},
-    {id:2,name:'Silver',price:545},
-    {id:3,name:'Gold',price:5452},
+    {id:1,name:'Free',price:0.000,benifitis:['free','ssd 512 ulimited','Justtin time run','HDD 21254']},
+    {id:2,name:'Silver',price:54.455 ,benifitis:['Siver & free','ssd 512 ulimited','Justtin time run','HDD 21254']},
+    {id:3,name:'Gold',price:545.542 ,benifitis:[' Gold & free','ssd 512 ulimited','Justtin time run','HDD 21254']},
 ]
 const PriceTitle = () => {
     return (
